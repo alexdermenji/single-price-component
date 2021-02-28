@@ -185,10 +185,13 @@ table {
   display: block;
   line-height: 48px;
   text-align: center;
-
   background-color: hsl(71, 73%, 54%);
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+  background-color: hsl(70, 70%, 48%);
 }
 
 .action__features {
