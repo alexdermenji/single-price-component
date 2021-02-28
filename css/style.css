@@ -77,7 +77,7 @@ table {
 }
 
 .action {
-  padding-top: 40px;
+  padding-top: 37px;
   font-family: "Karla", sans-serif;
   width: 635px;
   border-radius: 8px;
@@ -92,8 +92,9 @@ table {
 
 .title {
   font-weight: 700;
+  font-size: 24px;
   color: hsl(179, 62%, 43%);
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .subtitle {
@@ -135,9 +136,7 @@ table {
 .action__sign {
   width: 50%;
   background-color: #2ab3b1;
-  padding-left: 40px;
-  padding-top: 32px;
-  padding-bottom: 40px;
+  padding: 40px;
   color: #fff;
 }
 
@@ -148,6 +147,7 @@ table {
 
   .action__sign {
     width: 100%;
+    padding: 25px;
   }
 }
 
@@ -164,8 +164,18 @@ table {
   margin-right: 11px;
 }
 
+.action__price-block {
+  display: flex;
+  align-items: center;
+}
+
 .action__price-month {
   opacity: 0.5;
+}
+
+.action__price-text {
+  margin-top: 0;
+  margin-bottom: 26px;
 }
 
 .btn {
@@ -175,7 +185,7 @@ table {
   display: block;
   line-height: 48px;
   text-align: center;
-  padding: 0 102px;
+
   background-color: hsl(71, 73%, 54%);
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -197,4 +207,8 @@ table {
 .action__features-list {
   color: #fff;
   font-size: 14px;
+}
+
+.action__features-item {
+  margin-bottom: 2px;
 }
